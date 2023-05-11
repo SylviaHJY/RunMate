@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  width: 100vw;
+
+  .htxt {
+    cursor: pointer;
+
+    h1 {
+      margin-right: 50px;
+      color: #000;
+      font-size: 2rem;
+      font-style: italic;
+    }
+  }
+
+  .auth-links {
+    display: flex;
+    align-items: center;
+
+    a {
+      color: #000;
+      font-weight: 500;
+      text-decoration: none;
+      margin-right: 1rem;
+      font-size: 1.2rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      &.nav-link.active {
+        text-decoration: underline;
+      }
+    }
+  }
+}
